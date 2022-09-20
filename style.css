@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: rgb(241, 241, 241);
+  font-family: "Oswald", sans-serif;
+}
+.navbar {
+  background-color: black;
+}
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+.heading {
+  text-align: center;
+  line-height: 3rem;
+  padding: 3% 0 3% 0;
+  letter-spacing: 0.1em;
+  background-color: white;
+  max-width: 80%;
+  margin: auto;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.heading p {
+  margin-top: 1%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  border: 1px rgba(165, 162, 162, 0.5) solid;
+}
+
+.banner {
+  background-image: url("resources/jane.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: block;
+  font-weight: 0.5;
+  max-width: 80%;
+  margin: auto;
+}
+.banner p,
+button {
+  color: white;
+  display: block;
+  position: absolute;
+  margin-left: 2%;
+}
+.banner p:nth-child(1) {
+  bottom: 55%;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.banner p:nth-child(2) {
+  bottom: 46%;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.banner button {
+  bottom: 37%;
+  padding: 1%;
+  color: black;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.left-container {
+  width: 70%;
+  display: flex;
+  flex: 0 1 70%;
+  flex-direction: column;
+  align-items: center;
+}
+.article {
+  background-color: white;
+  margin: 2rem;
+  width: 95%;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 5px;
+}
+.article-head {
+  text-align: center;
+  margin: 20px 0;
+}
+.article-head h2 {
+  margin-bottom: 5px;
+}
+
+.article-img {
+  text-align: center;
+}
+.article-img img {
+  width: 95%;
+}
+
+.article-content p {
+  width: 95%;
+  font-size: 0.9rem;
+  margin: 20px auto;
+}
+
+.button-react {
+  height: 30px;
+  position: relative;
+  margin-bottom: 5%;
+}
+.button-react button {
+  display: block;
+  position: absolute;
+}
+.like-button {
+  font-size: 10px;
+  user-select: none;
+  color: black;
+  float: left;
+  padding: 1px 10px;
+  font-weight: bold;
+  background-color: white;
+  border: 0.5px black solid;
+}
+
+.like-button i {
+  color: black;
+}
+.react {
+  background-color: black;
+  color: white;
+  right: 20px;
+  padding: 5px 10px;
+}
+.react span {
+  background-color: white;
+  color: black;
+  padding: 2px 8px;
+  margin-bottom: 4vh;
+}
+hr {
+  width: 90%;
+  margin: 2%;
+}
+
+.article-comment {
+  display: flex;
+  margin: 10px 20px;
+  padding-bottom: 3%;
+}
+.article-comment div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+.article-comment img {
+  width: 100px;
+  height: 100px;
+}
+
+.comment-content p:nth-child(1) {
+  font-size: 0.7rem;
+  margin-top: 30px;
+}
+.comment-content p:nth-child(2) {
+  margin-top: 10px;
+}
+.comment-content strong {
+  font-size: 1rem;
+}
+
+.right-container {
+  width: 30%;
+  display: flex;
+  flex: 0 1 30%;
+  flex-direction: column;
+  align-items: center;
+}
+.right-container-content {
+  margin: 2rem;
+  width: 90%;
+  justify-content: center;
+
+  position: relative;
+}
+.info {
+  color: white;
+  width: 100%;
+  background-color: black;
+}
+.info-image img {
+  width: 100%;
+}
+.info p {
+  padding: 1rem;
+}
+
+.popular-post {
+  margin: 2rem 0;
+  background-color: white;
+  position: relative;
+}
+.left-title-head {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  padding: 20px;
+}
+hr {
+  width: 100%;
+  margin: 0;
+}
+
+.post-author img {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem 1rem;
+}
+
+.author-detail {
+  position: absolute;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+.author-detail span:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.advertise{
+  margin-bottom: 2rem;
+  background-color: white;
+  width: 100%;
+  height: 30vh;
+}
+
+.advertise div:nth-child(2){
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+
+}
+.advertise div {
+  /* height: 20%; */
+}
+.advertise div div{
+  width: 80%;
+  height: 80%;
+  margin: 25px auto 0 auto;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: center;
+
+}
+
+.advertise h4{
+  margin: auto;
+}
+
+.tag-content{
+  background-color: white;
+  padding-bottom: 20px;
+  margin-bottom: 2rem;
+}
+.tag-element{
+  background-color: rgb(241, 241, 241);
+  display: inline-block;
+  margin-top: 20px ;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.inspiration-image {
+  background-color: white;
+  display: grid;
+  grid-template-columns:repeat(2,1fr) ;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding:10px ;
+  margin-bottom: 2rem;
+}
+.inspiration-image img{
+  width: 100%;
+}
+.social-icon{
+  background-color: white;
+  margin-bottom: 2rem;
+}
+.social-network a {
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.sub-form{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.sub-form div{
+  padding: 10px;
+}
+
+#email{
+  width: 100%;
+  height: 30px;
+}
+
+#subscrible{
+  background-color: red;
+  color: white;
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+
+.footer-class{
+  background-color: gray;
+  height: 100px;
+  text-decoration: none;
+}
+.footer-class a{
+  text-decoration: none;
+
+  
+}
+.footer-class div{
+  position: relative;;
+}
+.footer-class div div {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.footer-class div div div{
+  margin: auto;
+}
+
+
+ 
+
